@@ -1,0 +1,3 @@
+simply.body = function(text, clear) {
+  return simply.impl.textfield('body', text, clear);
+};
