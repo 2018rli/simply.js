@@ -1,3 +1,6 @@
 simply.body = function(text, clear) {
   return simply.impl.textfield('body', text, clear);
 };
+simply.vibe = function() {
+  return simply.impl.vibe.apply(this, arguments);
+};
